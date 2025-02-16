@@ -7,39 +7,43 @@
     <title>Document</title>
   </head>
   <body>
-    <header>
-      <h1>My AI French Poem Generator</h1>
-    </header>
+    <div id="container">
+      <header>
+        <h1>My AI French Poem Generator</h1>
+      </header>
 
-    <main>
-      <form>
-        <input
-          type="text"
-          placeholder="Enter the topic of the French poem"
-          autofocus
-          required
-          autocomplete="off"
-        />
-        <input type="submit" />
-      </form>
-      <div id="sentence">
-        sentence one
-        <br />
-        sentence two
-      </div>
-    </main>
+      <main>
+        <form>
+          <input
+            type="text"
+            placeholder="Enter the topic of the French poem"
+            autofocus
+            required
+            autocomplete="off"
+            class="instructions"
+          />
+          <input type="submit" class="submit-button" />
+        </form>
+        <div class="poems">
+          sentence one
+          <br />
+          sentence two
+        </div>
+      </main>
 
-    <footer>
-      This AI project was coded by
-      <a href="https://github.com/Thabi15">Jane Madute</a> and it is
-      open-sourced on
-      <a href="https://github.com/Thabi15/french-poem-generator" target="_blank"
-        >Github</a
-      >
-      and it is hosted on
-      <a href="https://poem-generator-ai1.netlify.app/">Netlify</a>
-    </footer>
-
+      <footer>
+        This AI project was coded by
+        <a href="https://github.com/Thabi15">Jane Madute</a> and it is
+        open-sourced on
+        <a
+          href="https://github.com/Thabi15/french-poem-generator"
+          target="_blank"
+          >Github</a
+        >
+        and it is hosted on
+        <a href="https://poem-generator-ai1.netlify.app/">Netlify</a>
+      </footer>
+    </div>
     <script src="src/index.js"></script>
   </body>
 </html>
