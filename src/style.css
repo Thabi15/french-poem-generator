@@ -34,6 +34,10 @@ h1 {
 
 form {
   display: flex;
+  line-height: 1.5;
+  margin-top: 5px;
+  opacity: 0.6;
+  font-size: 12px;
 }
 
 .hint {
@@ -76,7 +80,7 @@ form {
   display: none;
 }
 
-.poems strong {
+.poem strong {
   color: #f4c2c2;
 }
 
